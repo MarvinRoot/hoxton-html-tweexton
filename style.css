@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: 80px auto;
+  }
+  
+  header {
+    display: grid;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(38, 62, 136);
+    color: white;
+    font-family: "Lobster", cursive;
+    font-size: 1rem;
+  }
+  
+  main {
+    font-family: sans-serif;
+    margin-top: 2rem;
+    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 1rem;
+  }
+  
+  main h3 {
+    color: rgb(38, 62, 136);
+  }
+  
+  .popular {
+    font-size: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    align-content: start;
+  }
+  
+  .popular .tweet {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    outline: solid 1px rgb(76, 106, 240);
+    padding: 1rem;
+  }
+  
+  .popular .tweet img {
+    width: 5rem;
+    border-radius: 50%;
+  }
+  
+  .popular .tweet .tweet-data {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 0rem 1rem;
+    grid-gap: 1rem;
+  }
+  
+  .popular .tweet-data .text {
+    line-height: 1.2;
+    word-spacing: 0.3rem;
+    font-style: italic;
+  }
+  .popular .tweet-data .username {
+    text-align: right;
+    color: gray;
+  }
+  
+  span {
+    font-variant: small-caps;
+    color: rgb(49, 81, 175);
+  }
+  
+  .trending {
+    color: white;
+    font-size: 1rem;
+    display: grid;
+    align-content: start;
+    grid-gap: 1rem;
+  }
+  
+  .trending-tweet {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    outline: solid 1px rgb(76, 106, 240);
+    background-color: rgb(38, 62, 136);
+    padding: 1rem;
+  }
+  
+  .trending .trending-tweet img {
+    width: 5rem;
+    border-radius: 50%;
+  }
+  
+  .trending .trending-tweet .tweet-data {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 0px 1rem;
+    grid-gap: 1rem;
+  }
+  
+  .trending .tweet-data .text {
+    line-height: 1.5;
+    word-spacing: 0.3rem;
+    font-style: italic;
+  }
+  .trending ol {
+    line-height: 1.2;
+    word-spacing: 0.3rem;
+    font-style: italic;
+  }
+  .trending .tweet-data .username {
+    text-align: right;
+    color: rgb(202, 199, 199);
+  }
+  
+  .trending span {
+    font-variant: small-caps;
+    color: white;
+  }
+  
+  .upcoming {
+    font-size: 1rem;
+    display: grid;
+    align-content: start;
+    grid-gap: 1rem;
+  }
+  
+  .upcoming-tweet {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    outline: solid 1px rgb(76, 106, 240);
+    padding: 1rem;
+  }
+  
+  .upcoming .upcoming-tweet img {
+    width: 5rem;
+    border-radius: 50%;
+  }
+  
+  .upcoming .upcoming-tweet .tweet-data {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 0px 1rem;
+    grid-gap: 1rem;
+  }
+  
+  .upcoming .tweet-data .text {
+    line-height: 1.2;
+    word-spacing: 0.3rem;
+    font-style: italic;
+  }
+  .upcoming .tweet-data .username {
+    text-align: right;
+    color: gray;
+  }
+  
+  span {
+    font-variant: small-caps;
+    color: rgb(49, 81, 175);
+  }
+  
